@@ -1,0 +1,54 @@
+.main {
+  width:100%;
+  
+  display:flex;
+  justify-content:start;
+}
+
+.container {
+  margin: 15px;
+  display:flex;
+  flex-direction: column;
+  justify-self: center;
+  flex-grow: 1;
+  max-width: 480px;
+  min-width: 250px;
+}
+
+.section {
+  background-color: rgb(231, 231, 231);
+  min-height: 200px;
+  display: flex;
+  overflow: hidden;
+  border-radius:3px;
+}
+
+.articles {
+  min-width:100%;
+  transition: transform 0.3s ease;
+}
+
+.bottom {
+  display:flex;
+  justify-content:space-between;
+  padding: 5px 5px 0px 5px;
+
+}
+
+.buttons {
+  background-color: rgb(66, 141, 255);
+  color:white;
+  border-color: rgb(66, 141, 255);
+  border-width: 0;
+  border-radius: 3px;
+  padding:8px 12px;
+  transition-duration: 0.4s;
+}
+.buttons:hover{
+  background-color: rgb(33, 93, 158);
+  cursor: pointer;
+}
+.buttons:active {
+  background-color: rgb(25, 72, 122);
+  transform: translate(1px,1px);
+}
